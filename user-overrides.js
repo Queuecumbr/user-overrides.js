@@ -34,7 +34,6 @@ user_pref("browser.safebrowsing.downloads.remote.block_uncommon", false);
 
 // Personal privacy settings
 user_pref("extensions.screenshots.upload-disabled", true);
-user_pref("browser.urlbar.suggest.history", false);
 user_pref("signon.rememberSignons", false);
 user_pref("media.autoplay.default", 5);
 user_pref("dom.webnotifications.enabled", false);
