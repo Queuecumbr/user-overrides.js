@@ -1,0 +1,13 @@
+user_pref("app.update.auto", true);
+user_pref("privacy.clearOnShutdown.history", false);
+user_pref("privacy.clearOnShutdown.cookies", false);
+user_pref("privacy.cpd.history", false);
+user_pref("privacy.resistFingerprinting.letterboxing", false);
+user_pref("browser.search.suggest.enabled", true);
+user_pref("browser.urlbar.suggest.searches", true);
+user_pref("security.ssl.require_safe_negotiation", false);
+user_pref("browser.newtabpage.enabled", true);
+user_pref("browser.startup.page", 1);
+user_pref("browser.startup.homepage", "about:home");
+user_pref("app.update.auto", true);
+user_pref("browser.shell.shortcutFavicons", true);
