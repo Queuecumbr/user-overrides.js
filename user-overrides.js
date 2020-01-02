@@ -1,3 +1,5 @@
+// user_pref("", );
+
 // QOL Overrides
 user_pref("app.update.auto", true);
 user_pref("privacy.clearOnShutdown.history", false);
@@ -44,6 +46,7 @@ user_pref("dom.vr.enabled", false);
 user_pref("browser.download.folderList", 2);
 user_pref("network.cookie.lifetimePolicy", 2);
 user_pref("dom.w3c_touch_events.enabled", 0);
+user_pref("network.security.esni.enabled", true);
 
 // Personal QOL Tweaks
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
@@ -51,3 +54,4 @@ user_pref("browser.backspace_action", 2);
 user_pref("extensions.pocket.enabled", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
+user_pref("browser.urlbar.update1", false);
