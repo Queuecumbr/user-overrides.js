@@ -15,6 +15,7 @@ user_pref("browser.startup.homepage", "about:home");
 user_pref("app.update.auto", true);
 user_pref("browser.shell.shortcutFavicons", true);
 user_pref("security.ssl.enable_ocsp_stapling", false);
+user_pref("privacy.firstparty.isolate", false);
 
 // Enable WebGl
 user_pref("webgl.disabled", false);
