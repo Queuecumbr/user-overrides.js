@@ -49,6 +49,7 @@ user_pref("browser.download.folderList", 2);
 user_pref("network.cookie.lifetimePolicy", 2);
 user_pref("dom.w3c_touch_events.enabled", 0);
 user_pref("network.security.esni.enabled", true);
+user_pref("network.cookie.lifetimePolicy", 2);
 
 // Personal QOL Tweaks
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
