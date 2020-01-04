@@ -56,3 +56,4 @@ user_pref("extensions.pocket.enabled", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
 user_pref("browser.urlbar.update1", false);
+user_pref("browser.bookmarks.openInTabClosesMenu", false);
