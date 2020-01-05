@@ -158,3 +158,7 @@ user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", fa
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
 user_pref("browser.urlbar.update1", false);
 user_pref("browser.bookmarks.openInTabClosesMenu", false);
+
+// Disable hardware acceleration
+user_pref("gfx.direct2d.disabled", true); // [WINDOWS]
+user_pref("layers.acceleration.disabled", true);
