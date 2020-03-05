@@ -1,5 +1,7 @@
 // user_pref("", );
 
+user_pref("_user.js.parrot", "Parrot: Resist Fingerprinting");
+
 // Resist Fingerprinting has been breaking necessary things for me. Using alternitive to resist fingerprinting.
 user_pref("privacy.resistFingerprinting", false);
 /*** [SECTION 4600]: RFP ALTERNATIVES
@@ -13,7 +15,7 @@ user_pref("privacy.resistFingerprinting", false);
        as active prefs in your overrides. This is assuming that the patch wasn't also
        backported to Firefox ESR. Backporting RFP patches to ESR is rare.
 ***/
-user_pref("_user.js.parrot", "4600 syntax error: the parrot's crossed the Jordan");
+
 // [SETUP-non-RFP] Non-RFP users replace the * with a slash on this line to enable these
 // FF55+
 // 4601: [2514] spoof (or limit?) number of CPU cores [FF48+]
@@ -99,6 +101,7 @@ user_pref("ui.systemUsesDarkTheme", 0); // [HIDDEN PREF]
 // * * * /
 // ***/
 
+user_pref("_user.js.parrot", "Parrot: QOL Overrides");
 // QOL Overrides
 user_pref("app.update.auto", true);
 user_pref("privacy.clearOnShutdown.history", false);
@@ -117,18 +120,22 @@ user_pref("security.ssl.enable_ocsp_stapling", false);
 user_pref("privacy.firstparty.isolate", false);
 user_pref("security.OCSP.require", false);
 
+user_pref("_user.js.parrot", "Parrot: WebGL");
 // Enable WebGl
 user_pref("webgl.disabled", false);
 user_pref("webgl.enable-webgl2", true);
 user_pref("webgl.min_capability_mode", false);
 user_pref("webgl.disable-extensions", false);
 
+user_pref("_user.js.parrot", "Parrot: Cache");
 // Enable cache
 user_pref("browser.cache.disk.enable", true);
 
+user_pref("_user.js.parrot", "Parrot: URL Bar");
 // Search with urlbar when not inputing a web address
 user_pref("keyword.enabled", true);
 
+user_pref("_user.js.parrot", "Parrot: SafeBrowsing");
 // Disable safebrowsing
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.phishing.enabled", false);
@@ -136,6 +143,7 @@ user_pref("browser.safebrowsing.downloads.enabled", false);
 user_pref("browser.safebrowsing.downloads.remote.block_potentially_unwanted", false);
 user_pref("browser.safebrowsing.downloads.remote.block_uncommon", false);
 
+user_pref("_user.js.parrot", "Parrot: Personal Privacy");
 // Personal privacy settings
 user_pref("extensions.screenshots.upload-disabled", true);
 user_pref("signon.rememberSignons", false);
@@ -151,6 +159,7 @@ user_pref("dom.w3c_touch_events.enabled", 0);
 user_pref("network.security.esni.enabled", true);
 user_pref("network.cookie.lifetimePolicy", 2);
 
+user_pref("_user.js.parrot", "Parrot: Personal QOL");
 // Personal QOL Tweaks
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.backspace_action", 2);
@@ -160,6 +169,9 @@ user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", 
 user_pref("browser.urlbar.update1", false);
 user_pref("browser.bookmarks.openInTabClosesMenu", false);
 
+user_pref("_user.js.parrot", "Parrot: Hardware Acceleration");
 // Disable hardware acceleration
 user_pref("gfx.direct2d.disabled", true); // [WINDOWS]
 user_pref("layers.acceleration.disabled", true);
+
+user_pref("_user.js.parrot", "Parrot: Completed Successfully");
