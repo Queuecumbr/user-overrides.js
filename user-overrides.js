@@ -103,6 +103,7 @@ user_pref("ui.systemUsesDarkTheme", 0); // [HIDDEN PREF]
 
 user_pref("_user.js.parrot", "Parrot: QOL Overrides");
 // QOL Overrides
+user_pref("browser.display.use_document_fonts", 1); // pdf.js breaks when the document uses custom fonts when this is set to 0
 user_pref("app.update.auto", true);
 user_pref("privacy.clearOnShutdown.history", false);
 user_pref("privacy.clearOnShutdown.cookies", false);
