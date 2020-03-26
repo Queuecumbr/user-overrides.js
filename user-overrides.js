@@ -169,6 +169,7 @@ user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", fa
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
 user_pref("browser.urlbar.update1", false);
 user_pref("browser.bookmarks.openInTabClosesMenu", false);
+user_pref("gfx.vsync.collect-scroll-transforms", true);
 
 user_pref("_user.js.parrot", "Parrot: Hardware Acceleration");
 // Disable hardware acceleration
