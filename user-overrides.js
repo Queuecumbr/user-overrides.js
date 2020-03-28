@@ -173,7 +173,7 @@ user_pref("gfx.vsync.collect-scroll-transforms", true);
 
 user_pref("_user.js.parrot", "Parrot: Hardware Acceleration");
 // Disable hardware acceleration
-user_pref("gfx.direct2d.disabled", true); // [WINDOWS]
-user_pref("layers.acceleration.disabled", true);
+// user_pref("gfx.direct2d.disabled", true); // [WINDOWS]
+// user_pref("layers.acceleration.disabled", true);
 
 user_pref("_user.js.parrot", "Parrot: Completed Successfully");
