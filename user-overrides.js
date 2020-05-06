@@ -159,7 +159,6 @@ user_pref("network.cookie.lifetimePolicy", 2);
 user_pref("dom.w3c_touch_events.enabled", 0);
 user_pref("network.security.esni.enabled", true);
 user_pref("network.cookie.lifetimePolicy", 2);
-user_pref("dom.security.https_only_mode", true);
 
 user_pref("_user.js.parrot", "Parrot: Personal QOL");
 // Personal QOL Tweaks
