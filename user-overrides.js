@@ -176,4 +176,15 @@ user_pref("_user.js.parrot", "Parrot: Hardware Acceleration");
 // user_pref("gfx.direct2d.disabled", true); // [WINDOWS]
 // user_pref("layers.acceleration.disabled", true);
 
+// Video chat fix
+user_pref("javascript.options.wasm", true);
+user_pref("dom.webaudio.enabled", true);
+user_pref("media.autoplay.blocking_policy", 0);
+user_pref("media.peerconnection.enabled", true);
+
+/* 2022: enable screensharing ***/
+user_pref("media.getusermedia.screensharing.enabled", true);
+user_pref("media.getusermedia.browser.enabled", true);
+user_pref("media.getusermedia.audiocapture.enabled", true);
+
 user_pref("_user.js.parrot", "Parrot: Completed Successfully");
