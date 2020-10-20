@@ -97,7 +97,7 @@ user_pref("dom.w3c_pointer_events.enabled", false);
 user_pref("ui.use_standins_for_native_colors", true);
 // 4616: enforce prefers-color-scheme as light [FF67+]
   // 0=light, 1=dark : This overrides your OS value
-user_pref("ui.systemUsesDarkTheme", 0); // [HIDDEN PREF]
+user_pref("ui.systemUsesDarkTheme", 1); // [HIDDEN PREF]
 // * * * /
 // ***/
 
