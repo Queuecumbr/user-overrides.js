@@ -191,7 +191,7 @@ user_pref("media.getusermedia.audiocapture.enabled", true);
 user_pref("gfx.font_rendering.cleartype_params.force_gdi_classic_for_families", "");
 user_pref("gfx.font_rendering.cleartype_params.force_gdi_classic_max_size", 6);
 user_pref("gfx.font_rendering.directwrite.use_gdi_table_loading", false);
-user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 2); // Configure as you see fit. Anything above 3 looks blurry to me
+user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
 
 
 user_pref("_user.js.parrot", "Parrot: Completed Successfully");
