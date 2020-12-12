@@ -159,6 +159,7 @@ user_pref("network.cookie.lifetimePolicy", 2);
 user_pref("dom.w3c_touch_events.enabled", 0);
 user_pref("network.security.esni.enabled", true);
 user_pref("network.cookie.lifetimePolicy", 2);
+user_pref("privacy.donottrackheader.enabled", false);
 
 user_pref("_user.js.parrot", "Parrot: Personal QOL");
 // Personal QOL Tweaks
@@ -192,6 +193,11 @@ user_pref("gfx.font_rendering.cleartype_params.force_gdi_classic_for_families", 
 user_pref("gfx.font_rendering.cleartype_params.force_gdi_classic_max_size", 6);
 user_pref("gfx.font_rendering.directwrite.use_gdi_table_loading", false);
 user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
+
+/* 1603: CROSS ORIGIN: control when to send a referer
+ * 0=always (default), 1=only if base domains match, 2=only if hosts match
+ * [SETUP-WEB] Known to cause issues with older modems/routers and some sites e.g vimeo, icloud ***/
+user_pref("network.http.referer.XOriginPolicy", 0);
 
 
 user_pref("_user.js.parrot", "Parrot: Completed Successfully");
