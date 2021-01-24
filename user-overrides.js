@@ -120,6 +120,7 @@ user_pref("browser.shell.shortcutFavicons", true);
 user_pref("security.ssl.enable_ocsp_stapling", false);
 user_pref("privacy.firstparty.isolate", false);
 user_pref("security.OCSP.require", false);
+user_pref("security.ssl.treat_unsafe_negotiation_as_broken", false);
 
 user_pref("_user.js.parrot", "Parrot: WebGL");
 // Enable WebGl
@@ -171,11 +172,13 @@ user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", 
 user_pref("browser.urlbar.update1", false);
 user_pref("browser.bookmarks.openInTabClosesMenu", false);
 user_pref("gfx.vsync.collect-scroll-transforms", true);
+user_pref("media.mediasource.experimental.enabled", true);
 
 user_pref("_user.js.parrot", "Parrot: Hardware Acceleration");
-// Disable hardware acceleration
-// user_pref("gfx.direct2d.disabled", true); // [WINDOWS]
-// user_pref("layers.acceleration.disabled", true);
+// Enable hardware acceleration
+user_pref("gfx.direct2d.disabled", false); // [WINDOWS]
+user_pref("layers.acceleration.disabled", false);
+user_pref("gfx.webrender.all", true)
 
 // Video chat fix
 user_pref("javascript.options.wasm", true);
