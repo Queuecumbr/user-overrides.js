@@ -121,6 +121,7 @@ user_pref("security.ssl.enable_ocsp_stapling", false);
 user_pref("privacy.firstparty.isolate", false);
 user_pref("security.OCSP.require", false);
 user_pref("security.ssl.treat_unsafe_negotiation_as_broken", false);
+user_pref("network.http.referer.XOriginTrimmingPolicy", 1);
 
 user_pref("_user.js.parrot", "Parrot: WebGL");
 // Enable WebGl
