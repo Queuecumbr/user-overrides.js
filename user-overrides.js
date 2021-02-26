@@ -202,4 +202,8 @@ user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
  * [SETUP-WEB] Known to cause issues with older modems/routers and some sites e.g vimeo, icloud ***/
 user_pref("network.http.referer.XOriginPolicy", 0);
 
+// Experimental
+user_pref("media.webrtc.hw.h264.enabled", true);
+user_pref("dom.paintWorklet.enabled", true);
+
 user_pref("_user.js.parrot", "Parrot: Completed Successfully");
