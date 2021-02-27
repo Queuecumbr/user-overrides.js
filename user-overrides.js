@@ -173,6 +173,7 @@ user_pref("browser.urlbar.update1", false);
 user_pref("browser.bookmarks.openInTabClosesMenu", false);
 user_pref("gfx.vsync.collect-scroll-transforms", true);
 user_pref("media.mediasource.experimental.enabled", true);
+user_pref("network.cookie.sameSite.laxByDefault", false); // This helps prevent some cookies for being rejected if they don't have SameSite defined
 
 user_pref("_user.js.parrot", "Parrot: Hardware Acceleration");
 // Enable hardware acceleration
