@@ -1,2 +1,2 @@
 # user-overrides.js
-My overrides of gHacks user.js for Firefox provided at https://github.com/ghacksuserjs/ghacks-user.js along with a simple updater script.
+My overrides of Arkenfox's user.js for Firefox provided at https://github.com/arkenfox/user.js along with a simple updater script.
